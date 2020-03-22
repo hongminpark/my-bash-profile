@@ -1,6 +1,7 @@
-# my-bash-profile
-This is my '.bash_profile' setting.
+# my-profiles
+This is my profile setting repository.
 
+## .bash_profile
 ```bash
 # Git branch in prompt. (20200120)
 parse_git_branch() {
@@ -16,4 +17,17 @@ export LSCOLORS=GxFxFxFxCxegedabagaced
 
 # Aliases
 alias ll='ls -alrt'
+```
+
+## .vimrc
+```bash
+:syntax on
+set autoindent
+set cindent
+set nu
+set showmatch
+set paste
+set tabstop=4
+set shiftwidth=4
+set textwidth=120
 ```
